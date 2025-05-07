@@ -1,0 +1,26 @@
+aside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+}
+
+.recibos{
+    display: flex;
+    flex-flow: row wrap;
+    border: 5px solid black;
+    margin: 10px;
+    justify-content: center;
+}
+
+.recibos h2{
+    padding: 10px;
+}
+
+.seleccionado{
+    background-color: grey;
+}

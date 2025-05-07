@@ -1,0 +1,29 @@
+Nico Salvay
+App Administrativa
+
+Cargar Cliente
+Datos de Compra y Registro
+Fechas de Pago y saldos
+Enviar y ver Recibos
+Comprobantes de Pagos
+Recordatorios de plazos
+Agrupar fechas de pagos de clientes
+
+Valor: $450.000
+
+Necesidades:
+Trabajan con sistema de crédito y planes de pago.
+----- Hace falta una web app en el que se pueda armar una base de datos del cliente con datos personales
+(nombre, dirección, dni, celular, fecha de pago y compra)
+----- Perfil de SuperAdmin, Admin, User
+----- Carga de cliente con todos sus datos 
+----- Generador de Recibos de pago
+----- Posibilidad de cobrar dos cuotas o de recibir varios pagos en el mes
+----- Historial de Clientes y recibos
+----- Filtro por fecha de pago
+----- Buscador de clientes, compras y recibos
+--- Recordatorio de fecha de pago
+--- Página con visualización de la cobranza del mes. Restringido a Admin
+(total del mes y total de ventas general, abonado, restante)
+----- Formulario de creación de usuario
+----- Formulario de creación de cliente

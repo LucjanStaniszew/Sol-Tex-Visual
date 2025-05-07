@@ -1,0 +1,51 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+}
+
+form{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form article{
+    padding: 10px;
+}
+
+input[type=submit]{
+    font-weight: 600;
+    padding: 5px;
+}
+
+.userform article{
+    display: flex;
+}
+.userform article label, h3{
+    margin-right: 10px;
+}
+
+.userform .convert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userform .convert div{
+    margin: 5px;
+}
+
+button{
+    padding: 5px;
+}
+
+.userform .clave div{
+    display: flex;
+    margin-right: 10px;
+}

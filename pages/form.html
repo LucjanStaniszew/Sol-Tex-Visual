@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol-Tex - Formularios</title>
+    <link rel="stylesheet" href="../styles/generales.css">
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/Logo.png" alt="Sol-Tex Logo" class="logo">
+        </a>
+        <h1>Sol-Tex App</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Clientes</a>
+                </li>
+                <li>
+                    <a href="./recibos.html">Recibos</a>
+                </li>
+                <li>
+                    <a href="./estadisticas.html">Estadisticas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form">
+            <h2>Formulario de Recibo:</h2>
+            <form>
+                <article class="nombre">
+                    <label>Nombre de Cliente:</label>
+                    <input type="text" placeholder="Nombre Apellido">
+                </article>
+                <article class="documento">
+                    <label>Documento:</label>
+                    <input type="number" placeholder="XX.XXX.XXX">
+                </article>
+                <article class="total">
+                    <h3>Saldo Total: $150.000</h3>
+                </article>
+                <article class="fecha">
+                    <label>Fecha:</label>
+                    <input type="datetime-local">
+                </article>
+                <article class="monto">
+                    <label>Monto:</label>
+                    <input type="number" placeholder="$111.222">
+                </article>
+                <article class="restante">
+                    <h3>(Monto Restante)</h3>
+                </article>
+                <input type="submit">
+            </form>
+        </section>
+
+        <section class="form">
+            <h2>Formulario de creación de Usuario:</h2>
+            <form>
+                <article class="nombre">
+                    <label>Nombre de Cliente:</label>
+                    <input type="text" placeholder="Nombre Apellido">
+                </article>
+                <article class="documento">
+                    <label>Documento:</label>
+                    <input type="number" placeholder="XX.XXX.XXX">
+                </article>
+                <article class="celular">
+                    <label>Celular:</label>
+                    <input type="number" placeholder="351-111-2233">
+                </article>
+                <article class="mail">
+                    <label>Correo Electronico:</label>
+                    <input type="email" placeholder="Nombre@gmail.com">
+                </article>
+                <article class="direccion">
+                    <label>Dirección:</label>
+                    <input type="text" placeholder="Av. San Martín 50, Barrió Bajo">
+                </article>
+                <input type="submit">
+            </form>
+        </section>
+
+        <section class="form">
+            <h2>Formulario de Actualización de User:</h2>
+            <form class="userform">
+                <article class="user">
+                    <label>Usuario:</label>
+                    <h3>JohnD</h3>
+                    <button>Editar</button>
+                </article>
+                <article class="documento">
+                    <label>Nombre y Apellido:</label>
+                    <h3>John Doe</h3>
+                    <button>Editar</button>
+                </article>
+                <article class="clave">
+                    <label>Clave:</label>
+                    <div>
+                        <h3>******</h3>
+                        <button>Ver</button>
+                    </div>
+                <button>Editar</button>
+            </article>
+            <article class="celular">
+                <label>Celular:</label>
+                <h3>351-111-2233</h3>
+                <button>Editar</button>
+            </article>
+            <article class="ingreso">
+                <label>Último Ingreso:</label>
+                <h3>30/04/2025 16:47 GMT-3</h3>
+            </article>
+            <article>
+                <label>Tipo de Usuario:</label>
+                <h3>User</h3>
+            </article>
+            <article class="convert">
+                <label>Convertir a:</label>
+                <div>
+                    <button>Admin</button>
+                    <button>SuperAdmin</button>
+                </div>
+            </article>
+            <input type="submit">
+        </form>
+    </section>
+    </section>
+    </main>
+    
+</body>
+</html>

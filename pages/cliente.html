@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sol-Tex - Cliente</title>
+    <link rel="stylesheet" href="../styles/generales.css">
+    <link rel="stylesheet" href="../styles/cliente.css">
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../assets/Logo.png" alt="Sol-Tex Logo" class="logo">
+        </a>
+        <h1>Sol-Tex App</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Clientes</a>
+                </li>
+                <li>
+                    <a href="./recibos.html">Recibos</a>
+                </li>
+                <li>
+                    <a href="./estadisticas.html">Estadisticas</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <section>
+                <h2>Número de Cliente</h2>
+                <h2>Nombre y apellido</h2>
+                <h2>Documento</h2>
+                <h2>Dirección</h2>
+                <h2>Celular</h2>
+            </section>
+
+            <section>
+                <a href="./form.html">
+                    Cargar Recibo
+                </a>
+            </section>
+            
+            <section class="search">
+                <article>
+                    <label for="">Número de Recibo</label>
+                    <div>
+                        <input type="number" placeholder="123456">
+                        <img src="../assets/lupa.png" alt="lupa" class="lupa">
+                    </div>
+                </article>
+                <article>
+                    <label for="">Fecha</label>
+                    <div>
+                        <input type="date" name="" id="">
+                        <img src="../assets/lupa.png" alt="lupa" class="lupa">
+                    </div>
+                </article>
+            </section>
+        </aside>
+
+        <section class="content">
+            <article class="rec">
+                <h2>Fecha: 28/04/2025 12:30 GMT-3</h2>
+                <h2>Número de Recibo: 11223</h2>
+                <h2>Couta N° X</h2>
+                <h2>Saldo a la fecha: $50.000</h2>
+                <h2>Monto Abonado: $40.000</h2>
+                <h2>Saldo restante: $10.000</h2>
+            </article>
+            
+            <a href="./recibo.html">
+                <article class="rec select">
+                    <h2>Fecha: 26/03/2025 10:30 GMT-3</h2>
+                    <h2>Número de Recibo: 9876</h2>
+                    <h2>Couta N° X</h2>
+                    <h2>Saldo a la fecha: $80.000</h2>
+                    <h2>Monto Abonado: $30.000</h2>
+                    <h2>Saldo restante: $50.000</h2>
+                </article>
+            </a>
+        </section>
+    </main>    
+</body>
+</html>
